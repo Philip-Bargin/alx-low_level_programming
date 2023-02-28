@@ -1,13 +1,13 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * reset_to_98 - writes a function that points to an int and updates
- *               the value of the address to 98.
- * @n: The int declared varialble name
+ *reset_to_98 - takes a pointer to an integer and updates
+ *its value
+ *@n: integer entered
+ *Return: void
  */
-
 void reset_to_98(int *n)
 {
-	*n = 98;
-}
+*n = 98;
 
+}
